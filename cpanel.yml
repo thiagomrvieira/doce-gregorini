@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/docegre1/public_html 
-    - /bin/cp -R /home/docegre1/repositories/doce-gregorini $DEPLOYPATH
+    - export DEPLOYPATH=/home/docegre1/public_html/
+    - /bin/cp -r * $DEPLOYPATH
