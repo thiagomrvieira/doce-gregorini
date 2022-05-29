@@ -1,12 +1,5 @@
 ---
 deployment:
   tasks:
-    # - export REPOPATH=/home/docegre1/repositories/doce-gregorini
-    # - export STGPATH=/home/docegre1/public_html 
-    # - /usr/bin/rsync -a --exclude=".git" --exclude=".cpanel.yml" $REPOPATH/ $STGPATH
-
-    - export DEPLOYPATH=/home/docegre1/repositories/doce-gregorini
-    - /bin/cp -r * $DEPLOYPATH #copy all from root
-#    - /bin/cp -r ./public/* $DEPLOYPATH/public_html/
-    - /bin/cp ./public/js/*.js $DEPLOYPATH/public_html/js
-    - /bin/cp ./public/css/*.css $DEPLOYPATH/public_html/css
+    - export DEPLOYPATH=/home/docegre1/public_html 
+    - /bin/cp -R /home/docegre1/repositories/doce-gregorini $DEPLOYPATH
