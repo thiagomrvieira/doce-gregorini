@@ -39,10 +39,23 @@
 					</ul>
 				</div>
 				<div class="image">
-					<img src=".\assets\images\bolo-01.png" alt="" />
+					<img src=".\assets\images\bolo-02.jpg" alt="" />
 				</div>
 			</section>
-			<section class="overflow-hidden text-gray-700 ">
+
+			<!-- Three -->
+			<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+				<div class="content">
+					<h2>Bolo nada óbvio para um atleta apaixonado!</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+					<ul class="actions stacked">
+						<li><a href="#" class="button">Mais fotos</a></li>
+					</ul>
+				</div>
+				<div class="image">
+					<img src=".\assets\images\bolo-03.jpg" alt="" />
+				</div>
+			</section>
 
 			<!-- Footer -->
 			<footer class="wrapper style1 align-center">
